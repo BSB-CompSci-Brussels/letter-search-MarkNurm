@@ -6,6 +6,5 @@ def countLetters(anyText: str, anyLetter: str) -> int:
         if i == anyLetter:
             counter += 1
     return counter
-
 print (countLetters("hello, 1"))
        
